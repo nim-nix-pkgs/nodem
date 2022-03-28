@@ -11,8 +11,8 @@
   inputs.src-nodem-main.ref   = "refs/heads/main";
   inputs.src-nodem-main.owner = "al6x";
   inputs.src-nodem-main.repo  = "nim";
-  inputs.src-nodem-main.dir   = "nodem";
-  inputs.src-nodem-main.type  = "github";
+    inputs.src-nodem-main.dir   = "nodem";
+inputs.src-nodem-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
